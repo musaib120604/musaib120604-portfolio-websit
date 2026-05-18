@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Musaib Bhat — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- Background -->
+<div class="scene">
+  <div class="gw"></div>
+  <div class="gw"></div>
+  <div class="gw"></div>
+</div>
+
+<div class="wrap">
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">MB <span>/ Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="mob-btn" id="menuOpen" aria-label="Open menu">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="7" x2="19" y2="7"/>
+          <line x1="3" y1="12" x2="19" y2="12"/>
+          <line x1="3" y1="17" x2="19" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mob-menu" id="mobMenu">
+    <button class="mob-close" id="menuClose">✕</button>
+    <a href="#about" class="mob-link">About</a>
+    <a href="#services" class="mob-link">Services</a>
+    <a href="#projects" class="mob-link">Projects</a>
+    <a href="#skills" class="mob-link">Skills</a>
+    <a href="#journey" class="mob-link">Journey</a>
+    <a href="#contact" class="mob-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero rv">
+    <div>
+      <div class="badge"><span class="dot"></span> Available for opportunities</div>
+      <h1 class="name">Musaib<br>Bhat</h1>
+      <p class="tagline">Developer crafting clean, thoughtful digital experiences. Passionate about building things that work beautifully and feel right.</p>
+      <div class="hero-btns">
+        <a href="mailto:Musaibbhat870@gmail.com" class="btn btn-w">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+        <a href="https://github.com/musaib120604" target="_blank" class="btn btn-g">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="av-card">
+      <div class="av-init">MB</div>
+      <div class="av-name">Musaib Bhat</div>
+      <div class="av-role">Developer</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint rv">
+    <span>Scroll</span>
+    <div class="arr"></div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sh rv"><span class="sh-label">01 — About</span><div class="sh-line"></div></div>
+    <div class="g rv about-card">
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="sec-title">Who I am</h2>
+          <p class="bio">I'm <strong>Musaib Bhat</strong>, a developer who loves turning ideas into real, working products. I care about the full picture — from pixel-level UI details to solid, maintainable code underneath.</p>
+          <p class="bio">I believe great software is invisible: it just works, and it feels right. Every project I take on gets my full attention and craftsmanship, no matter the size.</p>
+          <p class="quote">"Build for the future, design for the human."</p>
+        </div>
+        <div class="about-right">
+          <div class="stats">
+            <div class="stat"><div class="stat-n">2</div><div class="stat-l">Public Repos</div></div>
+            <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Lines of Code</div></div>
+            <div class="stat"><div class="stat-n">100%</div><div class="stat-l">Passion</div></div>
+            <div class="stat"><div class="stat-n">∀</div><div class="stat-l">Always Learning</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="sh rv"><span class="sh-label">02 — Services</span><div class="sh-line"></div></div>
+    <div class="srv-grid">
+      <div class="g srv-card rv">
+        <div class="srv-icon">⚛️</div>
+        <div class="srv-title">Frontend Development</div>
+        <div class="srv-desc">Building fast, responsive, and accessible interfaces using React, Next.js, and modern CSS — pixel-perfect on every device.</div>
+      </div>
+      <div class="g srv-card rv">
+        <div class="srv-icon">⚙️</div>
+        <div class="srv-title">Full-Stack Development</div>
+        <div class="srv-desc">End-to-end web apps from database to deployment — Node.js, REST APIs, and cloud-ready architectures.</div>
+      </div>
+      <div class="g srv-card rv">
+        <div class="srv-icon">🎨</div>
+        <div class="srv-title">UI / UX Design</div>
+        <div class="srv-desc">Designing interfaces that feel intuitive and look polished. Prototyping in Figma and bringing designs to life with code.</div>
+      </div>
+      <div class="g srv-card rv">
+        <div class="srv-icon">🐍</div>
+        <div class="srv-title">Python Scripting & Automation</div>
+        <div class="srv-desc">Automating repetitive workflows, data processing, and backend tasks using Python.</div>
+      </div>
+      <div class="g srv-card rv">
+        <div class="srv-icon">📱</div>
+        <div class="srv-title">Responsive Web Design</div>
+        <div class="srv-desc">Websites that look and work flawlessly on every screen — from 4K monitors to small phones.</div>
+      </div>
+      <div class="g srv-card rv">
+        <div class="srv-icon">🚀</div>
+        <div class="srv-title">Deployment & DevOps</div>
+        <div class="srv-desc">Shipping to Vercel, Netlify, or custom servers. Git workflows, CI/CD, and keeping things running smoothly.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sh rv"><span class="sh-label">03 — Projects</span><div class="sh-line"></div></div>
+    <div class="proj-grid">
+      <div class="g proj-card rv">
+        <div class="proj-num">01</div>
+        <div class="proj-title">Portfolio Website</div>
+        <div class="proj-desc">My personal portfolio built with modern web tech — featuring glassmorphism design, smooth animations, and full responsiveness.</div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        <a href="https://github.com/musaib120604/musaib120604-portfolio-website" target="_blank" class="proj-link">
+          View on GitHub
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+      <div class="g proj-card rv">
+        <div class="proj-num">02</div>
+        <div class="proj-title">Portfolio v2</div>
+        <div class="proj-desc">Second iteration of the portfolio with improved design, additional sections, and enhanced user experience across all devices.</div>
+        <div class="proj-tags"><span class="tag">CSS</span><span class="tag">React</span><span class="tag">Vite</span></div>
+        <a href="https://github.com/musaib120604/musaib120604-portfolio-websit" target="_blank" class="proj-link">
+          View on GitHub
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+      <div class="g proj-card rv">
+        <div class="proj-num">03</div>
+        <div class="proj-title">Coming Soon</div>
+        <div class="proj-desc">More projects in development. Follow on GitHub to stay updated on what's being built next.</div>
+        <div class="proj-tags"><span class="tag">In Progress</span></div>
+        <a href="https://github.com/musaib120604" target="_blank" class="proj-link">
+          Follow on GitHub
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sh rv"><span class="sh-label">04 — Skills</span><div class="sh-line"></div></div>
+    <div class="skills-wrap">
+      <div class="g skill-group rv">
+        <div class="sg-head">
+          <div class="sg-icon">💻</div>
+          <div class="sg-title">Languages & Frameworks</div>
+        </div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">HTML5 & CSS3</span><span class="skill-pct">95%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:95%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-pct">88%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:88%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">React.js</span><span class="skill-pct">85%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:85%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">78%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:78%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Node.js</span><span class="skill-pct">72%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:72%"></div></div></div>
+      </div>
+      <div class="g skill-group rv">
+        <div class="sg-head">
+          <div class="sg-icon">🛠️</div>
+          <div class="sg-title">Tools & Platforms</div>
+        </div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Git & GitHub</span><span class="skill-pct">90%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:90%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Figma / UI Design</span><span class="skill-pct">80%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:80%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Vite & Webpack</span><span class="skill-pct">82%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:82%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Vercel / Netlify</span><span class="skill-pct">85%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:85%"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Tailwind CSS</span><span class="skill-pct">88%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:88%"></div></div></div>
+      </div>
+    </div>
+
+    <!-- Marquee -->
+    <div class="marquee-wrap rv">
+      <div class="marquee-track">
+        <div class="mq-tag">⚛️ React</div><div class="mq-tag">🟨 JavaScript</div><div class="mq-tag">🔷 TypeScript</div><div class="mq-tag">🎨 Tailwind</div><div class="mq-tag">🟩 Node.js</div><div class="mq-tag">🐍 Python</div><div class="mq-tag">⚡ Vite</div><div class="mq-tag">🐙 Git</div>
+        <div class="mq-tag">⚛️ React</div><div class="mq-tag">🟨 JavaScript</div><div class="mq-tag">🔷 TypeScript</div><div class="mq-tag">🎨 Tailwind</div><div class="mq-tag">🟩 Node.js</div><div class="mq-tag">🐍 Python</div><div class="mq-tag">⚡ Vite</div><div class="mq-tag">🐙 Git</div>
+      </div>
+    </div>
+    <div class="marquee-wrap rv">
+      <div class="marquee-track rev">
+        <div class="mq-tag">🎨 Figma</div><div class="mq-tag">☁️ Vercel</div><div class="mq-tag">🌐 Next.js</div><div class="mq-tag">🗄️ MongoDB</div><div class="mq-tag">📦 npm</div><div class="mq-tag">🚀 Netlify</div><div class="mq-tag">🖥️ VS Code</div><div class="mq-tag">🔥 Firebase</div>
+        <div class="mq-tag">🎨 Figma</div><div class="mq-tag">☁️ Vercel</div><div class="mq-tag">🌐 Next.js</div><div class="mq-tag">🗄️ MongoDB</div><div class="mq-tag">📦 npm</div><div class="mq-tag">🚀 Netlify</div><div class="mq-tag">🖥️ VS Code</div><div class="mq-tag">🔥 Firebase</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section id="journey">
+    <div class="sh rv"><span class="sh-label">05 — Journey</span><div class="sh-line"></div></div>
+    <div class="timeline rv">
+      <div class="tl-line"></div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="g tl-card">
+          <div class="tl-year">2026</div>
+          <div class="tl-title">Building & Growing</div>
+          <div class="tl-desc">Joined GitHub in April 2026. Publishing open-source projects, building a portfolio, and levelling up full-stack skills with React and Node.js.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="g tl-card">
+          <div class="tl-year">2025</div>
+          <div class="tl-title">Mastered React & Modern Tooling</div>
+          <div class="tl-desc">Deep-dived into React ecosystem — Vite, Tailwind, component architecture, and deploying to Vercel and Netlify.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="g tl-card">
+          <div class="tl-year">2024</div>
+          <div class="tl-title">Frontend & UI / UX Focus</div>
+          <div class="tl-desc">Dedicated time to design fundamentals — Figma, typography, spacing, and translating designs into pixel-perfect code.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="g tl-card">
+          <div class="tl-year">2023</div>
+          <div class="tl-title">Started the Journey</div>
+          <div class="tl-desc">Wrote the first lines of code. Mastered HTML, CSS, and JavaScript fundamentals. Built the first projects and fell in love with software development.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sh rv"><span class="sh-label">06 — Contact</span><div class="sh-line"></div></div>
+    <div class="contact-intro rv">
+      <h2 class="contact-title">Let's build something.</h2>
+      <p class="contact-sub">Open to freelance projects, full-time roles, and collaborations.</p>
+    </div>
+    <div class="contact-grid rv">
+      <a href="mailto:Musaibbhat870@gmail.com" class="g ci-card">
+        <div class="ci-icon">📧</div>
+        <div>
+          <div class="ci-label">Email</div>
+          <div class="ci-val">Musaibbhat870@gmail.com</div>
+        </div>
+      </a>
+      <a href="https://github.com/musaib120604" target="_blank" class="g ci-card">
+        <div class="ci-icon">
+          <svg width="20" height="20" fill="rgba(18,24,40,.75)" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </div>
+        <div>
+          <div class="ci-label">GitHub</div>
+          <div class="ci-val">musaib120604</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="g form-wrap rv">
+      <h3>Send a message</h3>
+      <div class="form-row">
+        <div class="form-field"><label>Name</label><input type="text" id="fn" placeholder="Your name"></div>
+        <div class="form-field"><label>Email</label><input type="email" id="fe" placeholder="your@email.com"></div>
+      </div>
+      <div class="form-field">
+        <label>Subject</label>
+        <select id="fs">
+          <option value="" disabled selected>Select a topic</option>
+          <option>Freelance Project</option>
+          <option>Full-time Opportunity</option>
+          <option>Collaboration</option>
+          <option>General Inquiry</option>
+        </select>
+      </div>
+      <div class="form-field"><label>Message</label><textarea id="fm" placeholder="Tell me about your project..."></textarea></div>
+      <button class="submit-btn" id="sendBtn">
+        Send Message
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+      <div class="success-msg" id="successMsg">
+        <div class="success-icon">✉️</div>
+        <div class="success-title">Message sent!</div>
+        <div class="success-sub">I'll get back to you as soon as possible.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="rv">
+    <div class="ft-left">
+      <div class="ft-logo">Musaib Bhat</div>
+      <div class="ft-sub">© 2026 · All rights reserved</div>
+    </div>
+    <div class="ft-links">
+      <a href="mailto:Musaibbhat870@gmail.com" title="Email">📧</a>
+      <a href="https://github.com/musaib120604" target="_blank" title="GitHub">
+        <svg width="16" height="16" fill="rgba(18,24,40,.65)" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+    </div>
+    <div class="ft-right">
+      <div class="ft-copy">Designed & built by Musaib Bhat</div>
+      <button class="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        Back to top
+        <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+      </button>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
